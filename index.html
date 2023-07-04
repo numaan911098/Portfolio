@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="#" class="link"
+          >Numaan</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1><span class="about__name">Ethical Hacker & Software Developer</span></h1>
+        <h2 class="about__role">Projects for my Github.</h2>
+        <p class="about__desc">
+          I am graduating from Caset College of Computer Science. In additon to that i am majoring in Cyber Security as a Penetration Tester.
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="https://github.com/numaan911098"
+            target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/numaan-ahmad-7ab18025b"
+            target="_blank"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+          <a
+          href="https://twitter.com/numaan_ahmad_"
+          target="_blank"
+          aria-label="Twitter"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fab fa-twitter"></i>
+        </a>
+        <a
+  href="https://api.whatsapp.com/send?phone=+91 9149859383"
+  target="_blank"
+  aria-label="WhatsApp"
+  class="link link--icon"
+>
+  <i aria-hidden="true" class="fab fa-whatsapp"></i>
+</a>
+
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="Projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+   
+          <div class="project">
+            <h3>Active Directory Lab</h3>
+            <p class="project__description">
+              Work in progress, Active Directory Lab Environment.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Powershell</li>
+              <li class="project__stack-item">Windows</li>
+              <li class="project__stack-item">AWS</li>
+            </ul>
+            <a
+            href="#"
+            aria-label="live preview"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+            <br><br>
+          This AD Lab env is Hosted on AWS Cloud Services. For Learning and Practicing Various AD Attacks and security misconfigurations.
+
+          
+          </div>
+
+          <div class="project">
+            <h3>Password Manager</h3>
+            <p class="project__description">
+              Work in progress, Password Manager.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Django</li>
+              <li class="project__stack-item">AWS</li>
+              <li class="project__stack-item">Linux</li>
+
+            </ul>
+            <a
+            href="#"
+            aria-label="live preview"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+            <br><br>
+          Password Manager for Generating Complex Passwords for different Platforms and then storing those Credentials in a Cloud Database.
+
+          
+          </div>
+
+          <div class="project">
+            <h3>Web Application</h3>
+            <p class="project__description">
+              Work in progress, Secure Web Application.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Flask</li>
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+            <a
+            href="#"
+            aria-label="live preview"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+            <br><br>
+            Build a web application with a strong focus on security, including secure authentication, input validation, protection against common web vulnerabilities.
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="Skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">kali linux</li>
+          <li class="skills__list-item btn btn--plain">Networking</li>       
+          <li class="skills__list-item btn btn--plain">Penetration Test</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">css</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">Django</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Bash</li>
+          <li class="skills__list-item btn btn--plain">Flask</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact" id="Contact">
+        <h2 class="section__title">Contact</h2>
+        <p class="contact__desc">
+          Want to get in touch? Feel free to reach out to me via the following channels:
+        </p>
+        <ul class="contact__list">
+          <li class="contact__list-item">
+            <a href="mailto:numaan911098@gmail.com" class="link link--contact"
+              ><i class="fas fa-envelope"></i> Email</a
+            >
+          </li>
+          <li class="contact__list-item">
+            <a href="tel:914985938" class="link link--contact"
+              ><i class="fas fa-phone"></i> Phone</a
+            >
+          </li>
+          <li class="contact__list-item">
+            <a href="https://twitter.com/numaan_ahmad_" class="link link--contact"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+          </li>
+          <li class="contact__list-item">
+            <a href="https://www.linkedin.com/in/numaan-ahmad-7ab18025b" class="link link--contact"
+              ><i class="fab fa-linkedin"></i> LinkedIn</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
